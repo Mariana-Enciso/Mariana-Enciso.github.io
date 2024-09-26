@@ -1,0 +1,35 @@
+.body{
+	background-image: url("fondo.jpeg");
+	background-repeat: no-repeat;
+	text-justify: center;
+
+}
+
+.p{
+	color:black;
+}
+
+.nav-menu
+{
+
+  	color:black;
+  	text-justify: center;
+
+}
+
+.nombre{
+	font-size: 20px;
+}
+
+.precio
+{
+	font-size: 20px;
+}
+
+.id{
+	font-size: 20px;
+}
+
+.li{
+  background-color: white;
+}

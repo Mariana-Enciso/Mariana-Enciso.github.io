@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <center>
+  <title>pago</title>
+</center>
+  <link rel="stylesheet" type="text/css" href="stylepago.css">
+  <a href="funciones.js"></a>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+</head>
+
+<body background="fondo.jpg">
+
+  <a href="#body"><img src="logo.png"  title="Impresiones Santiago" /></a>
+
+  <h2 style="color: black;"align="center">Gracias por realizar tu pedido en Impresiones Santiago</h2> <br><br>
+
+
+
+<center>
+<h1>Generador de Folios</h1>
+ <button id="boton-generar-folio">Generar Folio</button>
+ <div id="folio-generado">
+ <!-- Aquí se mostrará el folio generado -->
+ </div>
+</center>
+ <script src="seguimiento.js"></script> <br><br>
+
+
+ <form action="submit.php" method="POST">
+   <h1 align="center" style="color:black;"> <label for="estado">Selecciona tu paquetería para el envío:</h1></label>
+ <center> 
+  <select name="estado" id="paqueteria">
+     <center> <option value="selecciona">Seleccione uno...</center></option> 
+      <option value="Correos de Mexico">Correos de México</option>
+      <option value="Estafeta">Estafeta</option>
+      <option value="Fedex">Fedex</option>
+      <option value="PaqueteExpress">PaqueteExpress</option>
+      <option value="UPS">UPS</option>  
+  </select>
+</center>
+</form>
+<br><br>
+
+
+<h2 style="color: black;"align="center"> Por favor, seleccione su forma de pago</h2><br>
+
+
+<h1 style="color: black;"align="center">Métodos de pago</h1>
+ <center>
+ <form id="formulario-pago">
+ <label for="metodo-pago">Seleccione un método de pago:</label>
+ <select id="metodo-pago">
+ <option value="tarjeta-credito">Tarjeta de crédito</option>
+ <option value="paypal">PayPal</option>
+ <option value="transferencia-bancaria">Transferencia bancaria</option>
+ </select>
+ <div id="detalles-pago">
+ <!-- Aquí se mostrarán los detalles del pago -->
+ </div>
+ <center><button id="boton-pagar">Pagar</button></center>
+</form>
+
+</center>
+<script src="script.js"></script>
+
+<br><br>
+   <ul class="nav-menu">
+          <li class="menu-active"><a href="ImpresionesSantiago.html">Inicio</a></li> <br>
+          <li><a href="servicios.html">Servicios</a></li> <br>
+          <li><a href="contacto.html">Contacto</a></li> <br>
+          <li><a href="login.html">Registrate</a></li> <br>
+          <li><a href="productos.html">Productos</a></li> <br>
+          <li><a href="carrito.html">Carrito</a></li> <br>
+        </ul>
+
+   </body>
+
+
+   </html> 

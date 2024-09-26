@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <title>login</title>
+  <link rel="stylesheet" type="text/css" href="stylelogin.css">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+</head>
+
+<body background="fondo.jpg" text="white">
+  <a href="#body"><img src="logo.png"  title="Impresiones Santiago" /></a>
+
+<main>
+
+<form>
+  <h4 style="color: black; "align="center">¿Ya eres usuario? <br>Inicia Sesión</h4>
+<div>
+<h4 align="center" style="color:black;"><label for="user" style="color: black;"> Usuario:</h4> </label>
+          <div align="center">
+          
+           </div>
+<input type="text" id="user" required/>
+</div>
+<div>
+<h4 align="center" style="color:black;"><label for="password" style="color: black;"> Contraseña: </h4> </label>
+          <div align="center">
+           
+           </div>
+<input type="password" id="password" required/>
+</div>
+<button type="submit"><a href="productos.html"> Entrar </a></button>
+</form>
+<script type="module" src="./login/login.js"></script>
+
+
+
+<h4 style="color: black;"align="center">¿No tienes cuenta? Crea una</h4>
+
+<div class="registro">
+
+    
+     <form id="form">
+  
+       <div>
+         
+         <label for="username">
+        <h4 style="color: black";>
+         <div align="center">Nombre:</div>
+         <div align="center">
+           <input  type="text" name="username" id="" placeholder=" " />
+           </div>
+       </div> 
+       </h4>
+       <h4 style="color: black";>
+         <div align="center">Apellido:</div>
+       </h4>
+         </label>
+  
+         <div align="center">
+           <input  type="text" name="username" id="" placeholder=" " />
+           </div>
+       </div> 
+     </form>
+
+
+
+
+  <form action="submit.php" method="POST">
+   <h4 align="center" style="color:black;"> <label for="estado">Selecciona tu estado:</h4></label>
+  <select name="estado" id="estado">
+      <option value="selecciona">Seleccione uno...</option> 
+      <option value="Aguascalientes">Aguascalientes</option>
+      <option value="Baja California">Baja California</option>
+      <option value="Baja California Sur">Baja California Sur</option>
+      <option value="Campeche">Campeche</option>
+      <option value="Chiapas">Chiapas</option>
+      <option value="Chihuahua">Chihuahua</option>
+      <option value="CDMX">Ciudad de México</option>
+      <option value="Coahuila">Coahuila</option>
+      <option value="Colima">Colima</option>
+      <option value="Durango">Durango</option>
+      <option value="Estado de México">Estado de México</option>
+      <option value="Guanajuato">Guanajuato</option>
+      <option value="Guerrero">Guerrero</option>
+      <option value="Hidalgo">Hidalgo</option>
+      <option value="Jalisco">Jalisco</option>
+      <option value="Michoacán">Michoacán</option>
+      <option value="Morelos">Morelos</option>
+      <option value="Nayarit">Nayarit</option>
+      <option value="Nuevo León">Nuevo León</option>
+      <option value="Oaxaca">Oaxaca</option>
+      <option value="Puebla">Puebla</option>
+      <option value="Querétaro">Querétaro</option>
+      <option value="Quintana Roo">Quintana Roo</option>
+      <option value="San Luis Potosí">San Luis Potosí</option>
+      <option value="Sinaloa">Sinaloa</option>
+      <option value="Sonora">Sonora</option>
+      <option value="Tabasco">Tabasco</option>
+      <option value="Tamaulipas">Tamaulipas</option>
+      <option value="Tlaxcala">Tlaxcala</option>
+      <option value="Veracruz">Veracruz</option>
+      <option value="Yucatán">Yucatán</option>
+      <option value="Zacatecas">Zacatecas</option>
+  </select>
+</form>
+       
+       <div>
+         <div align="center"><br>
+          <h4 style="color: black";>
+         Email:</div>
+       </h4>
+         </label>
+         <div align="center">
+           <input type="email" name="email" id="email" placeholder="" />
+           </div>
+       </div> 
+       
+       <div>
+         <div align="center"><br>
+          <h4 style="color: black";>
+         Password:</div>
+       </h4>
+         <div align="center">
+           <p>
+             <input type="password" name="password" id="contrasena" placeholder="" />
+           </p>
+         </div>
+       </div> 
+
+
+        <div align="center">
+           <h4 style="color: black";>
+          <p>&nbsp;</p>
+          <button type="submit" id="submit"><a href="productos.html">Enviar</a></button>
+
+        </h4>
+       </div>
+     
+    
+       </div> 
+   </div> 
+
+
+ 
+
+</main>
+
+<ul class="nav-menu">
+          <li class="menu-active"><a href="ImpresionesSantiago.html">Inicio</a></li> <br>
+          <li><a href="servicios.html">Servicios</a></li> <br>
+          <li><a href="contacto.html">Contacto</a></li> <br>
+          <li><a href="login.html">Registrate</a></li> <br>
+          <li><a href="productos.html">Productos</a></li> <br>
+          <li><a href="carrito.html">Carrito</a></li> <br>
+          <li><a href="pago.html">Pago</a></li> <br>
+        </ul>
+  </body>
+  </html>

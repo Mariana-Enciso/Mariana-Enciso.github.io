@@ -4,16 +4,19 @@ main {
     padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
+    border-color: black;
 }
 
 form {
     display: grid;
     gap: 1rem;
+    border-color: black;
 }
 
 label {
     font-weight: bold;
     align-content: center;
+    border-color: black;
 }
 
 input, select, textarea {
